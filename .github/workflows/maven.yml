@@ -23,10 +23,10 @@ jobs:
       contents: write
     steps:
     - uses: actions/checkout@v4
-    - name: Set up JDK 17
+    - name: Set up JDK 25
       uses: s4u/setup-maven-action@v1.19.0
       with:
-        java-version: '17'
+        java-version: '25'
         maven-version: '3.9.12'
         java-distribution: 'temurin'
     - name: Build with Maven
