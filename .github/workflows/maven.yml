@@ -24,7 +24,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: Set up JDK 17
-      uses: actions/setup-java@v4
+      uses: s4u/setup-maven-action@v.1.7.0
       with:
         java-version: '17'
         maven-version: '3.9.12'
